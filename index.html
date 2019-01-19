@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rick And Morty</h1>
+      <form id="js-form">
+        <div class="labelForm">
+          <label for="searchCharacter" id="searchDes">Enter Character's Name</label>
+          <input type="text" id="cName" placeholder="Commander Rick" required>
+          <input type="submit" id="submitButton" value="Submit">
+        </div>
+      </form>
+    </div>
+    <div id="container2" class="hidden">
+        <p id="js-error-message" class="error-message"></p>
+        <section id="results" class="hidden">
+          <h2>Character</h2>
+          <ul id="results-list"></ul>
+        </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

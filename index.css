@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+  }
+
+  html {
+    box-shadow:inset 0 0 0 2000px rgb(34, 34, 35,0.6);
+    background-image: url(http://hdqwalls.com/wallpapers/rick-and-morty-artwork-4k-u0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    height: 100%;
+  }
+  #container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .labelForm {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+  .hidden {
+    display: none;
+  }
+  h1 {
+      font-size: 80px;
+      text-align: center;
+      color: rgb(27, 134, 183);
+      font-family: 'Freckle Face', cursive;
+      text-shadow: -4px 0 rgb(7, 242, 19), 
+      0 4px rgb(181, 255, 206), 
+      4px 0 rgb(181, 255, 206), 
+      0 -4px rgb(7, 242, 19),
+      0 10px rgba(72, 255, 0, 0.5),
+      0 -10px rgba(72, 255, 0, 0.5),
+      -10px 0 rgba(72, 255, 0, 0.5),
+      10px 0 rgba(72, 255, 0, 0.5);
+  }
+  #submitButton {
+    background-color:rgb(27, 134, 183);
+    color: white;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #000000;
+    margin: 0 auto;
+    margin-top: 3%;
+    display: block;
+  }
+  #submitButton:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  #searchDes {
+    font-family: 'IM Fell Great Primer', serif;
+    color: rgb(250, 247, 247);
+    font-size: 40px;
+    padding: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #cName {
+    box-shadow: 2px 2px 4px #000000;
+    padding: 5px;
+    left: 50%;
+    margin: 0 auto;
+  }
+  #container2{
+    top: 100%;
+    position: absolute;
+    background-color: rgb(147, 178, 236);
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    left: 0;
+  }
+  hr {
+    width:80%; height:3px; background: gray;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  #results-list {
+    list-style-type: none;
+    box-sizing: border-box;
+  }
+  h2 {
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: 60px;
+  }
+  span {
+    font-weight: bold;
+  }
